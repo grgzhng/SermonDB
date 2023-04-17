@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "sermondb"
+version = "0.1.0"
+description = "Web Application to store and manage sermon notes"
+authors = ["justiny99 <justin.yu429@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
