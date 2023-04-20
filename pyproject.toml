@@ -1,12 +1,15 @@
 [tool.poetry]
 name = "sermondb"
 version = "0.1.0"
-description = "Web Application to store and manage sermon notes"
+description = ""
 authors = ["justiny99 <justin.yu429@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.8"
+django = "^4.2"
+dj-database-url = "^1.3.0"
+psycopg2-binary = "^2.9.6"
 
 
 [build-system]
